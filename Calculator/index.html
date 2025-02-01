@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div class="recent_manager">
+                    <button class="cir_key icon history">
+                        <img src="img/history.png" alt="" srcset="">
+                    </button>
+                    <button class="cir_key icon copy">
+                        <img src="img/copy.png" alt="" srcset="">
+                    </button>
+                </div>
+                <div class="output">
+                    <input type="text" class="opt" id="displayHistory" readonly>
+                    <input type="text" class="opt" placeholder="0" id="displayOutput" readonly>
+                </div>
+            </div>
+            <div class="keys_area">
+                <div class="row first_row">
+                    <div class="left first_left">
+                        <button class="btn rect_key first_left_keys">X!</button>
+                        <button class="btn rect_key first_left_keys">nPr</button>
+                        <button class="btn rect_key first_left_keys">nCr</button>
+                        <button class="btn rect_key first_left_keys">|det|</button>
+                        <button class="btn rect_key first_left_keys">|A|+|B|</button>
+                        <button class="btn rect_key first_left_keys">|A|.|B|</button>
+                    </div>
+                    <div class="right first_right">
+                        <button class="btn cir_key gry first_right_keys">AC</button>
+                        <button class="btn cir_key gry first_right_keys">Del</button>
+                        <button class="btn cir_key gry first_right_keys">%</button>
+                        <button class="btn cir_key orange_key first_right_keys">÷</button>
+                    </div>
+                </div>
+
+                <div class="row second_row">
+                    <div class="left second_left">
+                        <button class="btn rect_key second_left_keys"><p>x<sup>2</sup></p></button>
+                        <button class="btn rect_key second_left_keys"><p>x<sup>3</sup></p></button>
+                        <button class="btn rect_key second_left_keys"><p>x<sup>y</sup></p></button=>
+                        <button class="btn rect_key second_left_keys"><p>e<sup>x</sup></p></button>
+                        <button class="btn rect_key second_left_keys"><p>10<sup>x</sup></p></button>
+                        <button class="btn rect_key second_left_keys">|x|</buttone^>
+                    </div>
+                    <div class="right second_right">
+                        <button class="btn cir_key second_right_keys">7</button>
+                        <button class="btn cir_key second_right_keys">8</button>
+                        <button class="btn cir_key second_right_keys">9</button>
+                        <button class="btn cir_key orange_key second_right_keys">×</button>
+                    </div>
+                </div>
+
+                <div class="row third_row">
+                    <div class="left third_left">
+                        <button class="btn rect_key third_left_keys">1/x</button>
+                        <button class="btn rect_key third_left_keys">∛x</button>
+                        <button class="btn rect_key third_left_keys">√x</button>
+                        <button class="btn rect_key third_left_keys">ln</button>
+                        <button class="btn rect_key third_left_keys">log</button>
+                        <button class="btn rect_key third_left_keys">e</button>
+                    </div>
+                    <div class="right third_right">
+                        <button class="btn cir_key third_right_keys">4</button>
+                        <button class="btn cir_key third_right_keys">5</button>
+                        <button class="btn cir_key third_right_keys">6</button>
+                        <button class="btn cir_key orange_key third_right_keys">-</button>
+                    </div>
+                </div>
+
+                <div class="row fourth_row">
+                    <div class="left fourth_left">
+                        <button class="btn rect_key fourth_left_keys">sin</button>
+                        <button class="btn rect_key fourth_left_keys">cos</button>
+                        <button class="btn rect_key fourth_left_keys">tan</button>
+                        <button class="btn rect_key fourth_left_keys">cosec</button>
+                        <button class="btn rect_key fourth_left_keys">sec</button>
+                        <button class="btn rect_key fourth_left_keys">cot</button>
+                    </div>
+                    <div class="right fourth_right">
+                        <button class="btn cir_key fourth_right_keys">1</button>
+                        <button class="btn cir_key fourth_right_keys">2</button>
+                        <button class="btn cir_key fourth_right_keys">3</button>
+                        <button class="btn cir_key orange_key fourth_right_keys">+</button>
+                    </div>
+                </div>
+                
+                <div class="row fifth_row">
+                    <div class="left fifth_left">
+                        <button class="btn rect_key fifth_left_keys">Rad</button>
+                        <button class="btn rect_key fifth_left_keys"><p>sin<sup>-1</sup></p></button>
+                        <button class="btn rect_key fifth_left_keys"><p>cos<sup>-1</sup></p></button>
+                        <button class="btn rect_key fifth_left_keys"><p>tan<sup>-1</sup></p></button>
+                        <button class="btn rect_key fifth_left_keys">π</button>
+                        <button class="btn rect_key fifth_left_keys"><p style="text-align: center;">Unit <br>Conv</p></button>
+                    </div>
+                    <div class="right fifth_right">
+                        <button class="btn cir_key fifth_right_keys zero">0</button>
+                        <button class="btn cir_key fifth_right_keys">.</button>
+                        <button  class="btn cir_key orange_key fifth_right_keys">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
